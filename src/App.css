@@ -1,0 +1,21 @@
+/* *{
+  margin:0;
+  padding: 0;
+}
+#logo{
+  height:50px;
+  width:50px;
+  font-size:small;
+  
+
+
+}
+.Navbar{
+  height:10px;
+  width:100%;
+margin-right: 10px;
+}
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+} */

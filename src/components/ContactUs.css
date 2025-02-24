@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.box{
+  height:500px;
+  width:1200px;
+  background-color: rgb(200, 191, 208);
+  border-radius: 20px;
+  padding-left: 100px;
+  margin: 50px;
+  padding-right: 130px;
+}
+
+i{
+  font-size:50px;
+  gap:20px;
+  color:red;
+  gap:20px;
+}
+.conatct-item{
+  gap:5px;
+  margin-bottom: 10px;
+  font-size: 120px;
+}
+.centered{
+  text-align: center;
+  font-size: 70px;
+}

@@ -1,0 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+}
+.subscription-container .img{
+    height:500px;
+    width:500px;
+    padding-right: 400px;
+}

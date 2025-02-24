@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+ .content img{
+  display: flex;
+    height:500px; 
+    width:1600px;
+    margin: 1px;;
+    }
+.carousel-inner1{
+  width:1500px;
+  height:300px;
+  margin-bottom: 130px;
+
+}
+img{
+  margin-bottom:100px;
+}
+
+
+
+/* Limited (Footer */
+  .boxlimited{
+    width:1400px; 
+   height:700px; 
+  margin:5%;
+   gap:20%; 
+  box-sizing: 300% border-box;
+  /* background-color: white; */
+  border:25px  solid plum;
+  padding:50px;
+  text-align: center;  
+}
+.boxlimited .boxh{
+  padding:70px;
+}
+
+input{
+  width: 600px;
+  height: 50px;
+  text-align: 20%;
+  padding: 10px;
+  margin:40px;
+}
+.boxlimited .btnnext button{
+  width:600px;
+  height:50px;
+  padding: 80px;
+  text-align: center;
+  margin:60px;
+}
+/* Styling the container for the images */
+.content {
+  display: flex; /* Displays images in a row */
+  justify-content: center; /* Centers images horizontally */
+  align-items: center; /* Aligns images vertically */
+  /* gap: 20px; Adds space between images */
+  margin-bottom: 30px; /* Adds space below before the carousel */
+  
+  
+}

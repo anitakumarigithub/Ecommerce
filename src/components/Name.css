@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.my-name h1{
+    color:#ff9800, #ff5722;
+    margin-left: 50px;
+    margin-top: 50px;
+    color:#ff9800, #ff5722;
+}
+  h1{
+   color:#ff9800;
+   font-size: 70px;
+ }
+ .my-name h2{
+    
+    margin-top: 80px; 
+    margin-bottom: 40px;
+ }
+ h2{
+   font-size: 40px;
+   margin-left: 50px;
+
+ }
+ p{
+    margin-left: 100px;
+    font-size: 20px;
+ }
+ img{
+  height:200px;
+  width:20px;
+  margin-left: autopx;
+  float: right;
+  display: block;
+
+  
+  
+
+    
+ }
+  .my-na img{
+    width: 50%; /* This makes the image medium-sized */
+    max-width: 300px; /* Adjust to control max size */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Adjust image scaling */
+    margin-left: 1200px; /* Add space between the text and the image */
+    margin-bottom: 300px;;
+
+  
+  }
+  
+

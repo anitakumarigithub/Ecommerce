@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+.src h6{
+    font-size: 50px;
+    margin-top: 20px;
+    float: right;
+    margin-right: 500px;
+
+}
+p{
+    float: right;
+    margin-right: 320px;;
+}
+.src .pri i{
+    color: green;
+    float: right;
+    margin-right: 320px;;
+}
+
+

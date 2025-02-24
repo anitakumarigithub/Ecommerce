@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+       padding: 0;
+}
+.nav-bar{
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Space out the logo and navbar items */
+    width: 100%; /* Make the navbar stretch to full width */
+    background-color:whitesmoke; /* Example background color */
+  height:120px;
+  width:100%;
+  padding-right:320px;
+  border:solid whitesmoke;
+  
+
+
+}
+.nav-bar ul {
+    list-style: none;
+  
+
+    display: flex;
+
+    gap: 80px;
+    padding-top: 30px;
+    font-size: 25px;
+    text-align: none;
+}
+
+.nav-bar li {
+text-align: center;
+text-align: none;
+
+}
+i{
+    color :white !important;
+
+}
+#lblCartCount {
+    font-size: 12px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px;
+}
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #c67605;
+}
+#lblCartCount {
+    font-size: 11px;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -11px;
+}
+.badge {
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.logo img {
+  height: 215px; /* You can set the height as per your needs */
+  width: 210px; /* Keep the aspect ratio */
+  padding-top:90px;
+
+  
+}
+.nav-item:hover {
+  background-color: #555; /* Add hover effect */
+  cursor: pointer;
+}
+/* Change cart icon color to black */
+.bi-cart {
+  color: black; /* Set the cart icon color to black */
+}
+
+.bi-cart:hover {
+  color: #555; /* Optional: Change color on hover (light grey for example) */
+}
+.icon-spacing {
+  margin-right: 20px; /* Adjust as needed */
+}

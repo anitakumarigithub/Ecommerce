@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+.image-container img{
+    width:300px;
+    height:300px;
+    
+}
+.container .group {
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+    color: #fff;
+    background-color: #0000008e;
+    border-bottom: 2px solid #009cff;
+    border-top: 2px solid #009cff;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.group .text {
+    position: absolute;
+    width: max-content;
+    white-space: nowrap;
+    animation: my-animation 10s linear infinite;
+}
+
+@keyframes my-animation {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
